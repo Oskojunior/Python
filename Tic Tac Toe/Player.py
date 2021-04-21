@@ -5,6 +5,7 @@ class Player:
     def __init__(self, width, color):
         self.width = width
         self.color = color
+        self.score = 0
 
 
 class Circle(Player):
