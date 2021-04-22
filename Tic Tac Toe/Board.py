@@ -2,7 +2,7 @@ import pygame as pg
 import pygame.freetype
 import numpy as np
 import Player
-
+import AI
 class Board:
     def __init__(self):
         pg.init()
